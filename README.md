@@ -1,64 +1,46 @@
 <h1>PROJECT TITLE:🌸 PERIOD TRACKER </h1>
-<Hr>
+<hr>
 <h3> AUTHOR : ATHARV ANAND </h3>
 <br>
-
-<h2> EVENT : <h2>
-<HR>
-<H4> BEEST EVENT</H4>
-
+<h2> EVENT : </h2>
+<hr>
+<h4> BEEST EVENT</h4>
 <br>
-
-<h2> How To Use The Website</h2>
-
+<h2>How To Use The Website</h2>
 <ol>
     <li>
         Open the Period Tracker website in your browser
     </li>
-
     <li>
         Select your last period starting date using the date input box
     </li>
-
     <li>
         Enter your cycle length in days 
         (Example: 28 days)
     </li>
-
     <li>
         Click on the <b>Track Period</b> button
     </li>
-
     <li>
         The website will instantly show your next expected period date
     </li>
 </ol>
-
 <hr>
-
-<h3> Example</h3>
-
+<h3>Example</h3>
 <ul>
     <li>Last Period Date → 1 June 2026</li>
     <li>Cycle Length → 28 days</li>
     <li>Result → Next expected period date will be shown automatically</li>
 </ul>
-<ul>
-    <li>Last period date</li>
-    <li>Cycle length</li>
-</ul>
-
-
+<hr>
 <h3> Why I made this website ? </h3>
-<HR>
+<hr>
 <p>
 I made this website for females, especially teen girls, to calculate their next expected period date in a simple and easy way. 
 <br>
 I felt that many girls hesitate to talk openly about periods or use complicated apps or typical notepads to note their period cycle , so I wanted to create something basic, comfortable, and beginner-friendly that can help them understand and track their cycle easily.
 </p>
-
 <h2> Some cool features</h2>
-
 <ul>
     <li>Track next expected period date</li>
     <li>Simple and responsive UI</li>
@@ -67,11 +49,11 @@ I felt that many girls hesitate to talk openly about periods or use complicated 
     <li>Instant result calculation</li>
     <li>Beginner-friendly code structure</li>
 </ul>
-
 <hr>
-
-<h2> TECH STACK</H2>
-<BR>
-<LI> HTML </LI>
-<LI> CSS </LI>
-<LI> JS </LI>
+<h2> TECH STACK</h2>
+<br>
+<ul>
+    <li> HTML </li>
+    <li> CSS </li>
+    <li> JS </li>
+</ul>
