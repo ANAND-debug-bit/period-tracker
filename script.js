@@ -1,17 +1,27 @@
-function calculateperiod() {
-    let lastdate = document.getElementById("lastdate").value;
-    let cyclelength = document.getElementById("cyclelength").value;
-    if (lastdate =="" || cyclelength =="") {
-        alert("Please fill in all fields.");
+function calculatePeriod() {
+    // Get the values from the HTML inputs
+    const lastDateValue = document.getElementById('lastDate').value;
+    const cycleLengthValue = document.getElementById('cycleLength').value;
+    const resultDiv = document.getElementById('result');
+
+    // Validation: Check if inputs are empty
+    if (!lastDateValue || !cycleLengthValue) {
+        alert("Please enter both the Last Period Date and Cycle Length.");
         return;
     }
 
-   //gettingvalue of last period from input and adding cycle length to it to calculate next period date
+    //  Create a Date object
    
-   
-    let perioddate = new Date(lastdate);
-    perioddate.setDate(perioddate.getDate() + parseInt(cyclelength));
+    let nextDate = new Date(lastDateValue + 'T00:00:00');
 
-    let nextperiod = perioddate.toLocaleDateString();
-    document.getElementById("result").innerHTML ="🌸 Your next period may start on: <br><br> <b>" + nextperiod + "</b>";
+  
+    const cycleLength = parseInt(cycleLengthValue); // Convert string to integer
+    nextDate.setDate(nextDate.getDate() + cycleLength);
+
+  
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const formattedDate = nextDate.toLocaleDateString('en-US', options);
+    
+    resultDiv.style.display = 'block';
+    resultDiv.innerHTML = `Your next period is expected on:<br> ${formattedDate}`;
 }
