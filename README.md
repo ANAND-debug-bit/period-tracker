@@ -2,15 +2,12 @@
 <hr>
 <h3> AUTHOR : ATHARV ANAND </h3>
 <br>
-<h2> EVENT : </h2>
-<hr>
-<h4> BEEST EVENT</h4>
-<br>
 <h2>How To Use The Website</h2>
 <ol>
     <li>
-        Open the Period Tracker website in your browser
-    </li>
+        Open the Period Tracker website in your browser <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c78ef487-0b3a-4152-aef4-18de0b3b58b3" />
+
+ </li>
     <li>
         Select your last period starting date using the date input box
     </li>
